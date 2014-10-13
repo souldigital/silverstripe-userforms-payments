@@ -1,0 +1,21 @@
+{
+    "name": "souldigital/silverstripe-userforms-payments",
+    "description": "UserForms Payments enables CMS users to create dynamic forms that accept payment via a drag and drop interface and without getting involved in any PHP code",
+    "type": "silverstripe-module",
+    "keywords": ["silverstripe", "userforms", "omnipay"],
+    "authors": [
+        {
+            "name": "Soul Digital",
+            "email": "support@souldigital.com.au"
+        },
+        {
+            "name": "Tim Larsen",
+            "email": "tim@souldigital.com.au"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": ">=3.1.0",
+        "silverstripe/cms": ">=3.1.0",
+        "burnbright/silverstripe-omnipay": ">=1.1.0"
+    }
+}
