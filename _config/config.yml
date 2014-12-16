@@ -1,0 +1,6 @@
+---
+Name: userforms-payments
+---
+UserDefinedForm_EmailRecipient:
+  extensions:
+    - UserDefinedPaymentFormEmailRecipientExtension
