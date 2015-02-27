@@ -262,7 +262,7 @@ class UserDefinedPaymentForm_Controller extends UserDefinedForm_Controller
         $postdata         = $data;
 
         // request payment
-        $payment = Payment::create()->init("SecurePay_DirectPost", $amount, $currency);
+        $payment = Payment::create()->init($this->data()->PaymentGateway, $amount, $currency);
         $payment->write();
 
         $response = PurchaseService::create($payment)
